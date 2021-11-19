@@ -1,0 +1,12 @@
+version: "3.9"
+networks:
+    hahnnet:
+      driver: bridge
+services:  
+  webapp:
+    container_name: 'hahn_app'
+    build: ./Hahn.ApplicatonProcess.July2021.Web
+    ports:
+      - "49153:80"
+    networks:
+    - hahnnet

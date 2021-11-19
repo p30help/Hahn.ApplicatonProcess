@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{F9458103-529B-4263-8B21-36FC7BD0ED58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7FCF794D-E657-43BE-98E8-CB24988FF49C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Endpoint", "Endpoint", "{EB85DCC5-F822-431C-A3AF-B654677654B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A10D21D7-2790-4443-A59B-87BDD73ED7C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicationProcess.July2021.Web", "Hahn.ApplicatonProcess.July2021.Web\Hahn.ApplicationProcess.July2021.Web.csproj", "{16F9B50C-6F2E-47B1-837B-978E8223DEBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicationProcess.July2021.Domain", "Hahn.ApplicatonProcess.July2021.Domain\Hahn.ApplicationProcess.July2021.Domain.csproj", "{B268DB68-2860-4A16-A27A-8CD1620DD8F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicationProcess.July2021.Data", "Hahn.ApplicatonProcess.July2021.Data\Hahn.ApplicationProcess.July2021.Data.csproj", "{CD465930-21D4-41D3-A121-3590DFA8183B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicationProcess.July2021.Data.Sql.Commands", "Hahn.ApplicatonProcess.July2021.Data.Sql.Commands\Hahn.ApplicationProcess.July2021.Data.Sql.Commands.csproj", "{D941F2DA-CAF3-4B22-ABAD-7F5D160E3E95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicationProcess.July2021.Data.Sql.Queries", "Hahn.ApplicatonProcess.July2021.Data.Sql.Queries\Hahn.ApplicationProcess.July2021.Data.Sql.Queries.csproj", "{5BC3B352-6E17-485B-B0D3-968389CDDD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicationProcess.July2021.Web.Integration", "Hahn.ApplicationProcess.July2021.Web.Integration\Hahn.ApplicationProcess.July2021.Web.Integration.csproj", "{6FDA4A14-753F-45DD-A3EE-26136DC02AC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F9B50C-6F2E-47B1-837B-978E8223DEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F9B50C-6F2E-47B1-837B-978E8223DEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F9B50C-6F2E-47B1-837B-978E8223DEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F9B50C-6F2E-47B1-837B-978E8223DEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B268DB68-2860-4A16-A27A-8CD1620DD8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B268DB68-2860-4A16-A27A-8CD1620DD8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B268DB68-2860-4A16-A27A-8CD1620DD8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B268DB68-2860-4A16-A27A-8CD1620DD8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD465930-21D4-41D3-A121-3590DFA8183B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD465930-21D4-41D3-A121-3590DFA8183B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD465930-21D4-41D3-A121-3590DFA8183B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD465930-21D4-41D3-A121-3590DFA8183B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D941F2DA-CAF3-4B22-ABAD-7F5D160E3E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D941F2DA-CAF3-4B22-ABAD-7F5D160E3E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D941F2DA-CAF3-4B22-ABAD-7F5D160E3E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D941F2DA-CAF3-4B22-ABAD-7F5D160E3E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC3B352-6E17-485B-B0D3-968389CDDD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC3B352-6E17-485B-B0D3-968389CDDD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC3B352-6E17-485B-B0D3-968389CDDD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC3B352-6E17-485B-B0D3-968389CDDD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDA4A14-753F-45DD-A3EE-26136DC02AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDA4A14-753F-45DD-A3EE-26136DC02AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDA4A14-753F-45DD-A3EE-26136DC02AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDA4A14-753F-45DD-A3EE-26136DC02AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16F9B50C-6F2E-47B1-837B-978E8223DEBF} = {EB85DCC5-F822-431C-A3AF-B654677654B5}
+		{B268DB68-2860-4A16-A27A-8CD1620DD8F0} = {7FCF794D-E657-43BE-98E8-CB24988FF49C}
+		{CD465930-21D4-41D3-A121-3590DFA8183B} = {7FCF794D-E657-43BE-98E8-CB24988FF49C}
+		{D941F2DA-CAF3-4B22-ABAD-7F5D160E3E95} = {F9458103-529B-4263-8B21-36FC7BD0ED58}
+		{5BC3B352-6E17-485B-B0D3-968389CDDD42} = {F9458103-529B-4263-8B21-36FC7BD0ED58}
+		{6FDA4A14-753F-45DD-A3EE-26136DC02AC2} = {EB85DCC5-F822-431C-A3AF-B654677654B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CC38176-0E39-472A-8CE8-68A6A2AAD053}
+	EndGlobalSection
+EndGlobal
